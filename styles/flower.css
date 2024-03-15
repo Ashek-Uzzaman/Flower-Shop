@@ -1,0 +1,121 @@
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+.section-title{
+  font-size: 40px;
+  font-weight: 800;
+  color: #272727;
+  margin-bottom: 20px;
+}
+.btn-primary{
+  background: #E55473;
+  color: white;
+  border-radius: 8px;
+  border: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background: rgba(255, 168, 47, 0.948);
+}
+/* banner styles */
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-text *{
+  margin-bottom: 30px;
+  max-width: 525px;
+}
+
+.banner-title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #272727;
+}
+.banner-img img{
+  width: 100%;
+}
+/* featured */
+.section-heading{
+  width: 500px;
+  text-align: center;
+  margin: 120px auto;
+
+}
+.section-content{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: end;
+}
+.flower .flower-img{
+ 
+ border-radius: 300px 300px 0px 0px;
+ height: 500px;
+ padding: 100px 15px 0;
+ display: flex;
+ align-items: end;
+}
+.flower .flower-img img{
+  width: 100%;
+}
+.flower .pink{
+background: #A7216226;
+}
+.flower .blue{
+  background: #0597A026;
+}
+.flower .gray{
+  background: #477D1126;
+}
+.flower p{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+/* service styles */
+.service-section{
+  background: #2727270D;
+  margin-top: 100px;
+}
+.service-container{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+
+}
+.service{
+  text-align: center;
+ 
+}
+.service-description{
+  font-size: 24px;
+  font-weight: 600;
+  color: #272727CC;
+}
