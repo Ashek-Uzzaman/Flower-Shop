@@ -16,6 +16,7 @@ p {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 20px;
   
 }
 .section-title{
@@ -118,4 +119,81 @@ background: #A7216226;
   font-size: 24px;
   font-weight: 600;
   color: #272727CC;
+  margin-bottom: 25px;
+  padding-bottom: 50px;
+}
+/* hot deal styles */
+.hot-deal-item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+.hot-deal{
+  background-color: #E554730D;
+  margin-top: 100px;
+}
+.hot-deal-text{
+  width: 75%;
+  max-width: 550px;
+  text-align: center;
+}
+.hot-deal-text .important{
+  color: #E55473;
+}
+.insta-collection{
+  display: flex;
+  gap: 25px;
+}
+.news-letter{
+  margin: 120px 0;
+}
+.news-letter-bg{
+ background-image: url('../images/newsletterbg.png');
+ background-repeat: no-repeat;
+ padding: 20px 0;
+}
+ .news-letter form{
+  max-width: 800px;
+  display: flex;
+  gap: 10px;
+  margin:0 auto;
+  margin-bottom: 150px;
+  
+
+}
+.news-letter form input{
+  flex-grow: 1;
+  border: none;
+  outline:0;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 8px;
+ 
+}
+
+footer{
+  background-color: #111010;
+}
+.footer-heading{
+  text-align: center;
+  padding: 120px;
+}
+.footer-title{
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-heading p{
+  color: white;
+  width: 600px;
+  margin: 10px auto;
+}
+.copy-right{
+  padding: 20px;
+  font-size: 24px;
+  color: #FFFFFF66;
+}
+.flower-imprtn{
+  color: #E55473;
 }
